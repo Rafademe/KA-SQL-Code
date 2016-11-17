@@ -21,8 +21,6 @@ INSERT INTO <table_name> VALUES (<value>, <value>, <value>);
 
 # Ex 2.
 
-INSERT INTO fav_books VALUES (00, "", "", 19);
-
 INSERT INTO fav_books VALUES (001, "Capital: Critique of Political Economy", "Karl Marx", 1883);
 INSERT INTO fav_books VALUES (00, "The Accumulation of Capital", "Rosa Luxemburg", 1913);
 INSERT INTO fav_books VALUES (00, "Imperialism, the Highest Stage of Capitalism", 1916);
@@ -31,7 +29,3 @@ INSERT INTO fav_books VALUES (00, "On Contradiction", "Mao Zedong", 1937);
 INSERT INTO fav_books VALUES (00, "Guerrilla Warfare", "Che Guevara", 1961);
 INSERT INTO fav_books VALUES (00, "Pedagogia do Oprimido", "Paulo Freire", 1968);
 INSERT INTO fav_books VALUES (00, "Minimanual do Guerrilheiro Urbano", "Carlos Marighella", 1969);
-
-# To pull something up, or "select" it, use the format below:
-
-SELECT <column_name> FROM <table_name>;
