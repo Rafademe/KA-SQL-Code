@@ -1,0 +1,37 @@
+
+
+# To create a table, you will need to name it and create the necessary amount of columns - including their names,
+# and their <class> (i.e. integer, text, etc.).
+
+# Use the format below:
+
+CREATE TABLE <table_name> (<column_name> <class> <primary_key?>, <column_name> <class>, <column_name> <class> ... ); 
+
+# *Note* The <primary_key?> classifer is used to designate the column that holds the identification data.
+
+# Ex 1.
+
+CREATE TABLE fav_books (id INTEGER PRIMARY KEY, name TEXT, author TEXT, year INTEGER); 
+
+# To populate the table with data, use the format below:
+
+INSERT INTO <table_name> VALUES (<value>, <value>, <value>);
+
+# *Note* The order in which you must enter the values is dictated by the order in which you created the columns.
+
+# Ex 2.
+
+INSERT INTO fav_books VALUES (00, "", "", 19);
+
+INSERT INTO fav_books VALUES (001, "Capital: Critique of Political Economy", "Karl Marx", 1883);
+INSERT INTO fav_books VALUES (00, "The Accumulation of Capital", "Rosa Luxemburg", 1913);
+INSERT INTO fav_books VALUES (00, "Imperialism, the Highest Stage of Capitalism", 1916);
+INSERT INTO fav_books VALUES (00, "Prison Notebooks", "Antonio Gramsci", 1935);
+INSERT INTO fav_books VALUES (00, "On Contradiction", "Mao Zedong", 1937);
+INSERT INTO fav_books VALUES (00, "Guerrilla Warfare", "Che Guevara", 1961);
+INSERT INTO fav_books VALUES (00, "Pedagogia do Oprimido", "Paulo Freire", 1968);
+INSERT INTO fav_books VALUES (00, "Minimanual do Guerrilheiro Urbano", "Carlos Marighella", 1969);
+
+# To pull something up, or "select" it, use the format below:
+
+SELECT <column_name> FROM <table_name>;
