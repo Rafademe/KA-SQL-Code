@@ -1,0 +1,5 @@
+
+
+# To pull something up, or "select" it, use the format below:
+
+SELECT <column_name> FROM <table_name>;
