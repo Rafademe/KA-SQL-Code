@@ -29,3 +29,5 @@ INSERT INTO fav_books VALUES (00, "On Contradiction", "Mao Zedong", 1937);
 INSERT INTO fav_books VALUES (00, "Guerrilla Warfare", "Che Guevara", 1961);
 INSERT INTO fav_books VALUES (00, "Pedagogia do Oprimido", "Paulo Freire", 1968);
 INSERT INTO fav_books VALUES (00, "Minimanual do Guerrilheiro Urbano", "Carlos Marighella", 1969);
+
+#
