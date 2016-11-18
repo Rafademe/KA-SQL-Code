@@ -1,5 +1,35 @@
 
 
-# To pull something up, or "select" it, use the format below:
+# To pull up the data in a column, or "select" it, use the format below:
 
 SELECT <column_name> FROM <table_name>;
+
+# To select all of the columns in a table, use * for <column_name> in the above format.
+
+# Ex. 1
+
+SELECT * FROM fav_books;
+
+# To order the columns from smallest to largest (or A to Z?) while bringling them up, use the format below:
+
+# *Note* This requires a reference column from which the ordering will de derived.
+
+SELECT <column_name> FROM <table_name> ORDER BY <column_name>;
+
+# Ex. 2
+
+SELECT * FROM fav_books ORDER BY year;
+
+# To filter results, use the WHERE clause, which applies a logical expression to seperate the data.
+
+# Format:
+
+SELECT <column_name> FROM <table_name> WHERE <logicalexpression>
+ORDER BY <column_name>;
+
+# Ex. 3
+
+SELECT * FROM fav_books WHERE year > 1950
+ORDER BY year;
+
+#
