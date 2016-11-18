@@ -1,0 +1,36 @@
+
+# Aggregate funcitions in SQL are useful for finding things like the maximum and minimum values, sum, avergae, etc.
+
+# To find the sum, use the SUM aggregate funcition by following the format below:
+
+SELECT SUM(<column_name>) FROM <table_name>;
+
+# Ex. 1
+
+SELECT SUM(copies_owned) FROM fav-books;
+
+
+
+# To find the maximum, use the MAX aggregate funcition by following the format below:
+
+SELECT MAX(<column_name>) FROM <table_name>;
+
+# Ex. 2
+
+SELECT MAX(copies_owned) FROM fav_books;
+
+
+
+# To get categorized results from the aggregate funcitions, include the GROUP BY clause, using the format below:
+
+# *Note* This requires a <reference_column> from which the categories will de derived and the results organized.
+
+SELECT <reference_column>, SUM(<column_name>) FROM <table_name>
+GROUP BY <reference_column>;
+
+# Ex. 3
+
+SELECT year, SUM(copies_owned) FROM fav_books
+GROUP BY year;
+
+#
