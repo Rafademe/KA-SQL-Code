@@ -23,7 +23,7 @@ INSERT INTO <table_name> VALUES (<value>, <value>, <value>);
 
 INSERT INTO fav_books VALUES (001, "Capital: Critique of Political Economy", "Karl Marx", 1883, 1);
 INSERT INTO fav_books VALUES (002, "The Accumulation of Capital", "Rosa Luxemburg", 1913, 1);
-INSERT INTO fav_books VALUES (003, "Imperialism, the Highest Stage of Capitalism", 1916), 1;
+INSERT INTO fav_books VALUES (003, "Imperialism, the Highest Stage of Capitalism", "Vladimir Lenin", 1916, 1);
 INSERT INTO fav_books VALUES (004, "Prison Notebooks", "Antonio Gramsci", 1935, 1);
 INSERT INTO fav_books VALUES (005, "On Contradiction", "Mao Zedong", 1937, 0);
 INSERT INTO fav_books VALUES (006, "Guerrilla Warfare", "Che Guevara", 1961, 1);
