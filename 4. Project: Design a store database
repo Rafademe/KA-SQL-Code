@@ -1,0 +1,11 @@
+CREATE TABLE crimson_banner_books (id INTEGER PRIMARY KEY, name TEXT, author TEXT, year INTEGER, copies_in_stock INTEGER);
+
+INSERT INTO crimson_banner_books VALUES (001, "Capital: Critique of Political Economy", "Karl Marx", 1883, 32);
+INSERT INTO crimson_banner_books VALUES (002, "The Accumulation of Capital", "Rosa Luxemburg", 1913, 22);
+INSERT INTO crimson_banner_books VALUES (003, "Imperialism, the Highest Stage of Capitalism", "Vladimir Lenin", 1916, 24);
+INSERT INTO crimson_banner_books VALUES (004, "Prison Notebooks", "Antonio Gramsci", 1935, 18);
+INSERT INTO crimson_banner_books VALUES (005, "On Contradiction", "Mao Zedong", 1937, 24);
+INSERT INTO crimson_banner_books VALUES (006, "Guerrilla Warfare", "Che Guevara", 1961, 17);
+INSERT INTO crimson_banner_books VALUES (007, "Pedagogia do Oprimido", "Paulo Freire", 1968, 23);
+INSERT INTO crimson_banner_books VALUES (008, "Minimanual do Guerrilheiro Urbano", "Carlos Marighella", 1969, 20);
+INSERT INTO crimson_banner_books VALUES (009, "", "", 19, 2);
